@@ -1,0 +1,9 @@
+package br.com.infinet.repository;
+
+import org.springframework.data.repository.CrudRepository;
+
+import br.com.infinet.model.Planet;
+
+public interface PlanetRepository extends CrudRepository<Planet, Long>  {
+
+}
